@@ -40,7 +40,16 @@ form{
     height: 8rem;
     background-color: white;
 }
-tr{
+th,td{
     margin-top: 2px;
     padding: 2px;
+}
+.boton{
+    background-color: red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-emphasis-color: white;
+    color: white;
+    border-radius:5px;
+    margin-top: 10px;
 }

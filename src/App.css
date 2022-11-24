@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+form{
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  text-align: center;
+  padding: 20px 25px;
+  box-shadow: 0 5px 10px;
+}
+.c3{
+  margin: auto ;
+  width: 28rem;
+  text-align: left;
+}
+.boton{
+  background-color: red;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-emphasis-color: white;
+  color: white;
+  border-radius:5px;
+  margin-top: 10px;
+}
