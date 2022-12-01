@@ -1,0 +1,113 @@
+.c1{
+    margin: auto ;
+    width: 35rem;
+    text-align: left;
+    padding: 20px 25px;
+    box-shadow: 0 3px 5px;
+}
+.c2{
+    margin: auto ;
+    text-align: left;
+    background: rgb(255, 255, 255);
+    width: 25rem;
+    height: 18rem;
+    padding: 20px 25px;
+    box-shadow: 0 3px 5px;
+    
+}
+.c3{
+    margin: auto ;
+    width: 70rem;
+    text-align: center;
+    padding: 20px 25px;
+    background: #fff;
+    box-shadow: 0 3px 5px;
+}
+.img1 {
+    margin-left: 10rem;
+    width: 5rem;
+    height: 5rem;
+}
+th,td{
+    margin-top: 3px;
+    padding: 2px;
+   
+}
+.boton{
+    background-color: red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 20 rem;
+    color: white;
+    border-radius:5px;
+    margin-top: 20px;
+}   
+
+.c2 p {
+    color: red;
+    font-size: 12px;
+  }
+
+  label{
+    gap: 20px;
+  }
+
+  .box{
+    padding-left: 2px;
+    padding-right:2px ;
+    width: 2rem;
+  }
+
+  hr {
+    box-sizing: content-box;}
+        
+  .c2 th,td {
+    width:40% ;
+  }
+
+  .c2 label{
+   margin-left: 30px;
+  }
+  .c2 input{
+    margin-right: 20px;
+   }
+   .c1 th,td {
+    width:40% ;
+  }
+
+  .c1 label{
+   margin-left: 30px;
+  }
+  .c1 input{
+    margin-right: 20px;
+    margin-left: 2px;
+
+   }
+   .c1 div{
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+   } 
+  .c1 p {
+    color: red;
+    font-size: 12px;
+  }
+.estado{
+    width: 150px;
+}
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+  }
+
+.c3 th {
+  width: 200px;
+}
+.ajustar{
+  margin: auto ;
+  text-align: center;
+  padding: 10px 15px;
+  background: #fff;
+  box-shadow: 0 3px 3px;
+ 
+}

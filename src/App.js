@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
-
+import './propiedades.css';
+import Register from './components/auth/register';
+import Pedidos from './components/pedidos/pedidos';
+import Detalle from './components/pedidos/Detalle';
+import Contenedor from './components/contenedor';
+import Actualizar from './components/pedidos/Actualizar';
+import Nuevoregistro from './components/pedidos/Nuevoregistro';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from './components/navbar';
+import Login from './components/auth/login';
 
 function App() {
   return (
-    <div className="App">
-          <centrar>
-              <form>
-                  <table>
-                       <th><img src="Instaya.png"/></th> 
-                      <tr>
-                          <td><button className='boton'>Log In</button></td>
-                      </tr>   
-                      <tr>
-                          <td><button className='boton'>Registrarse</button></td>
-                      </tr>
-                  </table>
-                  </form>
-              </centrar>      
-    </div>
-  );
+
+    <BrowserRouter>
+      
+      <Navbar />
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Login/>} />  
+          <Route path="/registro" element={<Register/>} />
+          <Route path="/pedidos" element={<Pedidos />} />
+          <Route path="/pedidos/:id" element={<Detalle />} />
+          <Route path="/pedidos/:id/edit" element={<Actualizar />} />
+          <Route path="/new" element={<Nuevoregistro />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
+  )
 }
 
 export default App;
